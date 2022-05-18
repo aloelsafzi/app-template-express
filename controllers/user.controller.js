@@ -1,8 +1,10 @@
-const { user: User } = require('../models');
 const path = require('path')
+const {moveFile} = require('../utils/fileSystem')
+const { user: User } = require('../models');
 
 const baseDir = path.join(__dirname, "../")
 const uploadsDir = baseDir + "/public/uploads/";
+
 
 
 
